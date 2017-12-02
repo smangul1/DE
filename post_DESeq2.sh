@@ -21,6 +21,6 @@ python ~/code/cmd/mergeCsvByField.py $PCA_file $metadata_file test ID
 
 mv test $PCA_file
 
-python ~/code/adriana_jake/code/matrix_add_metadata.py $3 $PCA_file ~/code/cmd/DE/gene_id_name_table_ensembl37/gene_id_name_table.csv ${3}_metadata.csv
+#python ~/code/adriana_jake/code/matrix_add_metadata.py $3 $PCA_file ~/code/cmd/DE/gene_id_name_table_ensembl37/gene_id_name_table.csv ${3}_metadata.csv
 
 #python ~/code/cmd/DE/countsDE2Matrix.py control_steatosis_uncertain_vs_NASH_H_norm_rld.csv PCA_txt_control_steatosis_uncertain_vs_NASH_H.csv ~/code/cmd/DE/gene_id_name_table_ensembl37/gene_id_name_table.csv matrix
